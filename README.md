@@ -7,7 +7,7 @@ Steps to run the project:
 	a. To install node: node –v
 	b. To install npm: npm -v
 	c. To install Angular CLI: npm install -g @angular/cli
-	d. Create a new angular project: ng new project_name
+	d. Create a new angular project: ng new project_name (Select SCSS)
 3. Open Powershell and run the command: ExecutionPolicy RemoteSigned -Scope CurrentUser. Select option a.
 4. Run Visual Studio Code as administrator.
 5. Run the following commands on the terminal:
