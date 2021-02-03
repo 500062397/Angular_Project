@@ -1,0 +1,23 @@
+<!-- <div >{{employeeDetails.employee_age}}</div>
+<div *ngIf="error">{{error}}</div> 
+<div>sadasd</div>
+{{employeeDetails.employee_age}} -->
+
+<section *ngIf="getResponse">
+    <div class="name">
+        {{employeeDetails.employee_name}}
+    </div>
+    <div class="age">
+        <p>{{employeeDetails.employee_age}} years old</p>
+    </div>
+    <div class="salary">
+        <p>${{employeeDetails.employee_salary}}</p>
+    </div>
+
+</section>
+<section *ngIf="!getResponse">
+    <div>
+        {{error}}
+    </div>
+
+</section>

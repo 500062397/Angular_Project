@@ -1,0 +1,20 @@
+<table id="users">
+    <tr>
+        <th>ID</th>
+        <th>Employee Name</th>
+        <th>Employee Age</th>
+        <th>Employee Salary</th>
+        <th>Employee Details</th>
+    </tr>
+    <tr *ngFor="let user of users">
+
+        <td>{{user.id}}</td>
+        <td>{{user.employee_name}}</td>
+        <td>{{user.employee_age}}</td>
+        <td>{{user.employee_salary}}</td>
+        <!-- <td>{{user.profile_image}}</td> -->
+        <td><a [routerLink]="['/employee/',user.id]">Details</a></td>
+        <!-- <td><img style="max-width: 30px;" src={{user.profile_image}} alt="Alt" /></td> -->
+    </tr>
+
+</table>
